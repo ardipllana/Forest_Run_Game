@@ -1,0 +1,10 @@
+- Built a 2D platformer in Unity 2019.1 and shipped a Windows build (Forest Run.exe).
+- Implemented responsive player movement and jumping using CharacterController2D with Animator parameters (Speed, IsJumping).
+- Developed enemy pathfinding using A* Pathfinding Project (Seeker, Path) with physics-based movement and sprite flip.
+- Created collectible system (acorns) using OnTriggerEnter2D, score increments, and audio feedback.
+- Implemented a persistent game session (DontDestroyOnLoad) managing lives and score with Unity UI Text.
+- Designed scene flow: Menu.unity → Level.unity → Game Over.unity/EndGame.unity, including delayed level transitions via coroutine.
+- Added per-scene persistence utility to retain/destroy objects appropriately across scene loads.
+- Built a simple main menu with Play, Back to Menu, and Exit actions via SceneManager.
+- Organized assets and animation controllers (player idle/run, eagle) and integrated SFX pickups.
+- Configured project packages (Cinemachine, TextMeshPro, Timeline) and integrated A* Pathfinding Project.
